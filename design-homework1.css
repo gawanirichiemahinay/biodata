@@ -1,0 +1,82 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background-image: url('images/bg5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 15px 15px 30px rgb(7, 0, 0, 0.5);
+    position: relative;
+    background-color: rgb(248, 247, 230);
+    transition: 0.2s;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+.container:hover {
+    background-color: rgb(233, 233, 215);
+}
+:active.container {
+    box-shadow: none;
+    transform: translate(5px, 5px);
+}
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: 0.3s;
+    border: solid;
+    border-width: 1px;
+}
+:hover.profile-pic {
+    width: 200px;
+}
+h1, h2, h3 {
+    color: #333;
+}
+p {
+    color: #555;
+}
+.introduction {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.3s;
+    color: rgb(235, 235, 235);
+    font-family: 'arial';
+    text-shadow: 
+        -1px -1px 0px black,
+        1px -1px 0px black,
+        -1px 1px 0px black,
+        1px 1px 0px black; 
+}
+:hover.introduction {
+    font-size: x-large;
+}
+.puplogo{
+    width: 100px;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+    border-radius: 50%;
+    border: solid;
+    border-width: 2px;
+}
+:hover.puplogo{
+    width: 130px;
+}
+
+marquee {
+    position: absolute;
+    width: 100%;
+    z-index: 1; 
+}   
